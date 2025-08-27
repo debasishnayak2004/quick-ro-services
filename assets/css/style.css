@@ -902,6 +902,38 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-dark);
 }
+
+/* icons */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.floating-btn:hover {
+    transform: scale(1.1);
+}
+
+/* WhatsApp - left */
+.whatsapp-btn {
+    left: 20px;
+    background-color: #25D366; /* WhatsApp green */
+}
+
+/* Call - right */
+.call-btn {
+    right: 20px;
+    background-color: #007bff; /* Call blue */
+}
 /*** copyright end ***/
 
 
