@@ -934,6 +934,12 @@
     right: 20px;
     background-color: #007bff; /* Call blue */
 }
+
+/* services image hight */
+.card-img-top {
+  height: 250px;        
+  object-fit: cover;    
+}
 /*** copyright end ***/
 
 
